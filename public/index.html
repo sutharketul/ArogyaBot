@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Arogya Bot</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="dashboard">
+
+<!-- LEFT -->
+
+<div class="sidebar">
+
+<h1 class="logo">💙 Arogya Bot</h1>
+<p>Your AI Health Assistant</p>
+
+<ul>
+
+<li class="active">
+<i class="fa-solid fa-robot"></i>
+AI Consultation
+</li>
+
+<li>
+<i class="fa-solid fa-hospital"></i>
+Departments
+</li>
+
+<li>
+<i class="fa-solid fa-file-medical"></i>
+Health Records
+</li>
+
+<li>
+<i class="fa-solid fa-chart-line"></i>
+Reports
+</li>
+
+<li>
+<i class="fa-solid fa-bell"></i>
+Reminders
+</li>
+
+<li>
+<i class="fa-solid fa-bookmark"></i>
+Saved Chats
+</li>
+
+<li class="red">
+<i class="fa-solid fa-triangle-exclamation"></i>
+Emergency
+</li>
+<div class="logout">
+
+<i class="fa-solid fa-right-from-bracket"></i>
+
+Logout
+
+</div>
+</ul>
+
+</div>
+
+
+<!-- CENTER -->
+
+<div class="center">
+
+<input
+class="search"
+placeholder="Search symptoms, diseases, doctors..."
+>
+
+<div class="chatCard">
+
+<h2>AI Consultation</h2>
+
+<div id="chatBox" class="chatBox">
+
+<div class="botMessage">
+
+👋 Hello! I am Arogya Bot.<br><br>
+Write your symptoms.
+
+</div>
+
+</div>
+
+<div class="inputBox">
+
+<input
+id="symptoms"
+placeholder="Describe your symptoms..."
+>
+
+<button onclick="sendMessage()">
+
+<i class="fa-solid fa-paper-plane"></i>
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- RIGHT -->
+
+<div class="right">
+
+<div class="card">
+
+<h3>Possible Conditions</h3>
+
+<div id="condition">
+
+No analysis yet
+
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>Risk Level</h3>
+
+<div id="risk">
+
+Normal
+
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>Doctor</h3>
+
+<div id="doctor">
+
+No recommendation
+
+</div>
+
+</div>
+
+</div>
+
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
