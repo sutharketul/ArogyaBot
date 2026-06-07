@@ -134,31 +134,32 @@ console.log("Server Running");
 });
 const doctors = {
   ortho: {
-    doctor: "Dr. Amul Modi",
-    hospital: "Sunrise Orthopedic Hospital"
+    name: "Dr. Amul Modi",
+    hospital: "Bhagyoday Multi-Speciality Hospital"
   },
-  cardio: {
-    doctor: "Dr. Raj Shah",
-    hospital: "Heart Care Hospital"
+
+  gynecologist: {
+    name: "Dr. Kuldeep Rathod",
+    hospital: "Bhagyoday Multi-Speciality Hospital"
   },
-  neuro: {
-    doctor: "Dr. Mehul Patel",
-    hospital: "Neuro Care Center"
+
+  neurosurgeon: {
+    name: "Dr. Sandip Patel",
+    hospital: "Bhagyoday Multi-Speciality Hospital"
   },
-  ent: {
-    doctor: "Dr. Priya Shah",
-    hospital: "ENT Hospital"
+
+  neurologist: {
+    name: "Dr. Pankaj Patel",
+    hospital: "Bhagyoday Multi-Speciality Hospital"
   },
-  gastro: {
-    doctor: "Dr. Rakesh Patel",
-    hospital: "Gastro Care Hospital"
+
+  generalsurgeon: {
+    name: "Dr. Chintan Nayak",
+    hospital: "Bhagyoday Multi-Speciality Hospital"
   },
+
   general: {
-    doctor: "Dr. Amit Kumar",
-    hospital: "City Care Hospital"
-  },
-  surgeon: {
-    doctor: "Dr. Vivek Shah",
-    hospital: "Surgical Center"
+    name: "Dr. Rajesh Patel",
+    hospital: "Bhagyoday Multi-Speciality Hospital"
   }
 };
