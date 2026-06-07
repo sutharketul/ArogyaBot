@@ -132,3 +132,33 @@ app.listen(3000,()=>{
 
 console.log("Server Running");
 });
+const doctors = {
+  ortho: {
+    doctor: "Dr. Amul Modi",
+    hospital: "Sunrise Orthopedic Hospital"
+  },
+  cardio: {
+    doctor: "Dr. Raj Shah",
+    hospital: "Heart Care Hospital"
+  },
+  neuro: {
+    doctor: "Dr. Mehul Patel",
+    hospital: "Neuro Care Center"
+  },
+  ent: {
+    doctor: "Dr. Priya Shah",
+    hospital: "ENT Hospital"
+  },
+  gastro: {
+    doctor: "Dr. Rakesh Patel",
+    hospital: "Gastro Care Hospital"
+  },
+  general: {
+    doctor: "Dr. Amit Kumar",
+    hospital: "City Care Hospital"
+  },
+  surgeon: {
+    doctor: "Dr. Vivek Shah",
+    hospital: "Surgical Center"
+  }
+};
